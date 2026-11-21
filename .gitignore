@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large Datasets and Archives
+data_processed.zip
+*.zip
+*.tar.gz
+*.mp4
+
+# Raw video data and heavy training/val partitions
+data/raw/
+data/processed/train/
+data/processed/val/
+data/sample_naive.jpg
+data/sample_tight.jpg
+
+# Retain test partition for live evaluation and gallery
+!data/processed/test/
+!data/processed/test/**
+
+# Loose ad-hoc test photos in root
+image test.jpeg
+images- real.jpg
+istockphoto-*.jpg
+test image*.jpeg
+test image*.jpg
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
